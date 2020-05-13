@@ -1,0 +1,175 @@
+/*************************TAG SELECTORS***************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 100px auto 0 auto;
+  /* Parameters is in the order top, right, bottom, left for the margin */
+  font-family: 'Londrina Solid', cursive;
+  font-size: 5rem;
+  /* 5rem = 80px */
+  color: #11999e;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.5rem;
+  /* 2.5rem = 40px */
+  font-weight: normal;
+  line-height: 1.5;
+  /* The default for line-height is 1.5 */
+  color: #11999e;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 1.5rem;
+  /* 1.5rem = 24px */
+  color: #76dbd1;
+}
+
+a {
+  color: #40514e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border: dotted #40514e 15px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/*************************CLASS SELECTORS*************************************/
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {
+  background-color: #f6f6f6;
+}
+
+.bottom-container {
+  background-color: #00adb5;
+  height: 150px;
+  padding-top: 150px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile {
+  margin: 0 auto 50px auto;
+}
+
+.profile-pic {
+  margin: 50px auto 0 auto;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.web-icon {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.marketing-icon {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.web-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.marketing-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  line-height: 1;
+}
+
+.button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 40px;
+  background-color: #11999E;
+  box-shadow: 1px 1px 7px 0px #000000;
+  -webkit-box-shadow: 1px 1px 7px 0px #000000;
+  -moz-box-shadow: 1px 1px 7px 0px #000000;
+  text-shadow: 1px 1px 0px #000000;
+  border: solid #11999E 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px;
+}
+
+.button:hover {
+  background: #76DBD1;
+  border: solid #76DBD1 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.linkedin {
+  padding-right: 50px;
+}
+
+.instagram {
+  padding-left: 50px;
+}
+
+.cv {}
+
+.copyright {
+  margin: 50px auto;
+  font-size: 0.8rem;
+  color: #40514e;
+}
+
+/**************************ID SELECTORS***************************************/
